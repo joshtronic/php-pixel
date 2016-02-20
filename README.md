@@ -1,14 +1,10 @@
 # php-pixel
 
-> Yo Dawg, I herd you like pixels, so I put a pixel in your pixel so you can
-> pixel while you pixel.
-
-Why does this exist? Because I got sick of looking up how to generate a single
-transparent pixel in PHP.
+Generate a 1x1 transparent pixel in PHP.
 
 ## Installation
 
-```
+```shell
 composer require "joshtronic/php-pixel:dev-master"
 ```
 
@@ -16,13 +12,13 @@ composer require "joshtronic/php-pixel:dev-master"
 
 ### GIF
 
-```
+```php
 joshtronic\Pixel::gif();
 ```
 
 ### PNG
 
-```
+```php
 joshtronic\Pixel::png();
 ```
 
